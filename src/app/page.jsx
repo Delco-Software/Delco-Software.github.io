@@ -262,12 +262,14 @@ export default async function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
           Laird Construction and Remediation
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Dream, design, and renovate with our experienced team, committed to delivering exceptional results. Your perfect home makeover starts with us.
-          </p>
+          <h1 className="text-xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
+          Building relationships on trust, confidence and honesty.
+          </h1>
+          <p className="mt-6 text-xl text-zinc-600 dark:text-zinc-400">
+          Quality construction begins with a quality relationship.          </p>
           <div className="mt-6 flex gap-6">
-          <button className='bg-blue-700 text-white dark:text-white px-3 py-2'>Give us a call</button>
-          <button className='border border-white px-3 py-2'>Send us an email</button>
+          <button href="tel:+14848028125" className='bg-blue-700 text-white dark:text-white px-3 py-2'>Give us a call</button>
+          <button href="mailto:lairdremediation@gmail.com" className='border border-white px-3 py-2'>Send us an email</button>
           </div>
         </div>
       </Container>
